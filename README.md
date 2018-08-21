@@ -10,16 +10,18 @@ main_api = ('https://api.ip2location.com/?ip='+str(ip_address)+'&key=*****&packa
 You can sign up for a trial key that enable you to test the REST API for up to 5,000 credits.
 https://www.ip2location.com/web-service
 
-Enter IP:206.189.79.201
+Enter IP:45.56.155.206
 ********************************************************************************
                               Created by Pierce2r                               
                                   Version 1.0                                   
 ********************************************************************************
 
-[*] Tracking 206.189.79.201 for credentials...
+[*] Tracking 45.56.155.206 for credentials...
 [+]Country name: United States
-[+]Region name: California
-[+]City name: Santa Clara
-[+]Latitude: 37.35411
-[+]Longitude -121.95524
-[+]ISP name: DigitalOcean LLC
+[+]Region name: New York
+[+]City name: New York City
+[+]Latitude: 40.731323
+[+]Longitude -73.990092
+[+]ISP name: VPN Consumer Network
+0:00:01.848646
+

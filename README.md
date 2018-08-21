@@ -3,6 +3,8 @@
 # version 1.0
 # For Educational purposes only. 
 
+command: git clone 
+
 In code:
 
 main_api = ('https://api.ip2location.com/?ip='+str(ip_address)+'&key=*****&package=WS6') #replace ****** with your API key

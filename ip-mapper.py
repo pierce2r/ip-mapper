@@ -27,13 +27,13 @@ try:
 		print('[+]Region name: '+line[2])
 		print('[+]City name: '+line[3])
 		print('[+]Latitude: '+line[4])
-		print('[+]Longitude '+line[5])
-		print('[+]ISP name: '+line[6]+ '\n')
+		print('[+]Longitude: '+line[5])
+		print('[+]ISP name: '+line[6])
 		t2=datetime.now()
 		total=t2-t1
 		print(total)	
 	else:	
-		timeout=20
+		timeout=10
 		socket.setdefaulttimeout(timeout)
 		print('Connection timeout')
 

@@ -31,7 +31,7 @@ try:
 		print('[+]ISP name: '+line[6])
 		t2=datetime.now()
 		total=t2-t1
-		print(total)	
+		print('Scan completed in: ' +str(total))	
 	else:	
 		timeout=10
 		socket.setdefaulttimeout(timeout)

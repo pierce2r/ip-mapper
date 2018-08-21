@@ -5,6 +5,15 @@
 
 command: git clone https://github.com/pierce2r/ip-mapper.git 
 
+# [+]Country name
+# [+]Region name
+# [+]City name
+# [+]Latitude
+# [+]Longitude
+# [+]ISP name
+
+
+
 In code:
 
 main_api = ('https://api.ip2location.com/?ip='+str(ip_address)+'&key=*****&package=WS6') #replace ****** with your API key

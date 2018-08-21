@@ -3,7 +3,7 @@
 # version 1.0
 # For Educational purposes only. 
 
-command: git clone 
+command: git clone https://github.com/pierce2r/ip-mapper.git 
 
 In code:
 

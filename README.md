@@ -1,7 +1,7 @@
 # ip-mapper
 # python 2.x
 # version 1.0
-# For Educational purposes only. Won't be responsible for any harm by user
+# For Educational purposes only. 
 
 In code:
 

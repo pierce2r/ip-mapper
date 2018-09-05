@@ -17,7 +17,7 @@ try:
   	print('*'*80)
 	t1=datetime.now()	
 	if response.status_code==200:
-		print('\n* Connecting to satellite...')
+		print('\n[*] Connecting to satellite...')
 		time.sleep(4)
 		print('[*] Tracking '+str(ip_address)+' for credentials...')
 		time.sleep(4)

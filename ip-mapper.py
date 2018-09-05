@@ -1,21 +1,19 @@
-#! /usr/bin/env python 2.x
 import requests
+import socket
 import sys
 import urllib
 import pyperclip
 from datetime import datetime
-
 try:
 	ip_address=raw_input('Enter IP:')
-	main_api = ('https://api.ip2location.com/?ip='+str(ip_address)+'&key=*****&package=WS6') #replace ****** with your API key
+	main_api = ('https://api.ip2location.com/?ip='+str(ip_address)+'&key=******&package=WS6') #replace api with yours
 	response = requests.get(main_api)
-
+#banner design
   	print('*'*80)
   	print('Created by Pierce2r').center(80)
 	print('Version 1.0').center(80)
   	print('*'*80)
-	t1=datetime.now()
-	
+	t1=datetime.now()	
 	if response.status_code==200:
 		print('\n[*] Tracking '+str(ip_address)+' for credentials...')
 		browser=urllib.urlopen(main_api)
@@ -30,8 +28,8 @@ try:
 		print('[+]Longitude: '+line[5])
 		print('[+]ISP name: '+line[6])
 		t2=datetime.now()
-		total=t2-t1
-		print('Scan completed in: ' +str(total))	
+		total=(t2-t1)
+		print('Scan Completed in: ' + str(total))	
 	else:	
 		timeout=10
 		socket.setdefaulttimeout(timeout)
@@ -39,4 +37,3 @@ try:
 
 except KeyboardInterrupt:
 	sys.exit()
-
